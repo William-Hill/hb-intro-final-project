@@ -7,3 +7,4 @@ class Bank_Account(object):
 	def withdraw(self,money_withdrawn):
 		self.account_balance -= money_withdrawn
 
+my_account = Bank_Account("William", 10)
